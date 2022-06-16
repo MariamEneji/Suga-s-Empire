@@ -45,6 +45,7 @@ p{
 a{
 font-size: 1.2rem;
 color: purple;
+    text-decoration: none;
 }
 a:hover{
 font-size: 1.5rem;
