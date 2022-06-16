@@ -1,0 +1,93 @@
+body{ 
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+
+    background: linear-gradient(rgba(247, 246, 247, 0.521), rgba(244, 217, 247, 0.767)), URL("https://thumbs.dreamstime.com/b/purple-dots-line-lilac-canvas-texture-background-minimalist-wallpaper-concept-purple-dots-lines-lilac-canvas-texture-222417945.jpg");
+ 
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    /* background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(233,222,233,0.9976365546218487) 0%, rgba(198,208,249,1) 100%); */
+}
+h1{
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+    color: purple;
+    text-shadow: 2px 0px 5px rgba(60,42,58,0.6);
+}
+
+hr{
+    height: 10px;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.intro{ width: 100%;
+    align-items: center;
+
+font-family: 'Hind Madurai', sans-serif;
+margin-top: 15%;}
+
+.inner{ 
+    margin-left: auto;
+    
+}
+
+p{
+    margin: 10px;
+}
+a{
+    font-size: 1.2rem;
+    color: purple;
+}
+a:hover{
+    font-size: 1.5rem;
+    color: white;
+}
+
+hr{
+    margin: 10%;
+    border-style: dotted;
+
+}
+img{
+    display: flex;
+    margin-left: auto;
+width: 300px;
+   border-radius: 50%;
+}
+
+
+
+@media (max-width:767px) {
+    h1{  
+        font-size: 1.5rem;
+    }
+  
+    
+    h2{
+        font-size: 2rem;
+    }
+
+    p{
+        margin: 8px;
+    }
+    a{
+        font-size: 1rem;
+        color: purple;
+    }
+
+    img{
+        display: flex;
+        margin: auto;
+    width: 250px;
+       border-radius: 50%;
+    }
+    
+}

@@ -1,0 +1,137 @@
+body{  
+        align-items: center;
+        justify-content: center;
+        padding: 5%;
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(233,222,233,0.9976365546218487) 0%, rgba(198,208,249,1) 100%);
+    }
+
+
+.top{margin: 10%;
+    background-size: 100%;
+    padding: 3%;
+    background: linear-gradient(rgba(247, 246, 247, 0.521), rgba(244, 217, 247, 0.767)), URL("mass.PNG");
+ 
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    box-shadow: -1px 6px 27px -1px rgba(69,6,66,0.75);
+
+    width: 60%;
+    
+    
+}
+
+.bottom{margin: auto;
+    background-size: 100%;
+    padding: 3%;
+    background: linear-gradient(rgba(247, 246, 247, 0.521), rgba(244, 217, 247, 0.767)), URL("perf.PNG");
+ 
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    box-shadow: -1px 6px 27px -1px rgba(69,6,66,0.75);
+
+    width: 60%;
+    
+}
+
+
+h1{
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+    color: purple;
+    text-shadow: 2px 0px 5px rgba(60,42,58,0.6);
+    margin-right: 20px;
+}
+
+hr{
+    height: 10px;
+}
+
+h2{ font-family: 'pacifico', 'cursive';
+    font-size: 2.5rem;
+  
+}
+
+.intro{ width: 100%;
+    align-items: center;
+
+font-family: 'Hind Madurai', sans-serif;
+margin-top: 15%;}
+
+.inner{ 
+    margin-left: auto;
+    
+}
+
+p{
+    margin: 10px;
+}
+a{
+    font-size: 1.2rem;
+    color: purple;
+}
+a:hover{
+    font-size: 1.5rem;
+    color: white;
+}
+
+hr{
+    margin: 10%;
+    border-style: dotted;
+
+}
+img{
+    
+width: 300px;
+
+}
+
+.appointment{
+    margin-left: 60%;
+    margin-top: 10%;
+    text-align: center;
+    color: purple;
+}
+
+
+
+@media (max-width:767px) {
+    .top{
+        height: 300px;
+
+    width: 80%;    
+}
+
+.bottom{ 
+    width: 80%;
+    height: 300px;   
+}
+
+
+h1{
+    font-size: 1.5rem;
+}
+
+
+h2{ 
+    font-size: 1.5rem; 
+}
+
+
+a{
+    font-size: 1rem;
+}
+
+img{    
+width: 300px;
+}
+
+.appointment{
+    margin-left: 1%;
+    text-align: center;   
+}
+}
